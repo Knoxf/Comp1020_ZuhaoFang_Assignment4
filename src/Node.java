@@ -22,4 +22,10 @@ public class Node {
         link = n;
     }
 
+    public String toString(){
+        String returnStr = "";
+        returnStr = returnStr + link + "(" + data + ")";
+        return returnStr;
+    }
+
 }
